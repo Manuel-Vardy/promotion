@@ -46,6 +46,13 @@
     border-radius: 4px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #e0a800;
+
+/* Process image responsive height */
+.process-img {
+    height: 300px;
+}
+@media (min-width: 1024px) {
+    .process-img {
+        height: 680px;
+    }
 }
